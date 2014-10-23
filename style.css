@@ -1,0 +1,53 @@
+body{
+	background: darkcyan;
+	font-family: cursive;
+}
+#container{
+	width: 400px;
+	height: 200px;
+	background: bisque;
+	border: 1px solid;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+#messeges{
+	width: 90%;
+	height: 55%;
+	background: white;
+	margin: -10px auto;
+	border-radius: 10px;
+}
+#newMessege{
+	display: inline-block;
+}
+#addBtn{
+	display: inline-block;
+}
+.button{
+	display: inline-block;
+	background: yellow;
+	width: 60px;
+	border: 1px solid;
+	border-radius: 5px;
+	font-size: 10px;
+	padding: 3px;
+}
+#buttons{
+	text-align: center;
+}
+.button:hover{
+	cursor: pointer;
+}
+#inputMessege{
+	display: -webkit-box;
+	margin: 20px;
+}
+#messegeNumber input{
+	width: 20px;
+}
+#messegeNumber{
+	margin-left: 20px;
+}
+#counter{
+	margin-left: 40px;
+}
