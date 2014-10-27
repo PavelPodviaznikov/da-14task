@@ -2,30 +2,38 @@
 <html>
 <head>
 	<title>da-14 Task</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link rel="stylesheet" type='text/css' href="style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-    <script type="text/javascript" src="messeges.json"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
 	<div id="container">
-		<div id="header">
-			<div id="inputMessege">
-				<div id="newMessege">Messege: <input type="text" placeholder="Input messege"/></div>
-				<div id="messegeNumber">#: <input type="text" placeholder="0"/></div>
-				<span id="counter">0</span>
-			</div>
-			<div id="buttons">
-				<div id="addBtn" class="button">Add</div>
-				<div id="getAllBtn" class="button">Get All</div>
-				<div id="getOneBtn" class="button">Get One</div>
-				<div id="deleteAll" class="button">Delete All</div>
-				<div id="deleteOne" class="button">Delete One</div>
-			</div>
-			
+		<div id="messegesArea"></div>
+		<div id="buttonsArea">
+			<form id="inputForm">
+				<input type="text" placeholder="Type messege..."/>
+				<div class="btn" id="addNewMessege">Add</div>
+			</form>
+			<div class="btn" id="showAll">ShowAll</div>
+			<form id="inputMessegeNumber">
+				<input type="text" placeholder="1,2,3..."/>
+				<div class="btn" id="getMessege">Show</div>
+			</form>
+			<div class='btn' id="getImg">Get Image</div>
+			<input type="checkbox" id="checker" checked/>
+			<span id='counter'>0</span>
 		</div>
-		<div id="messeges"></div>
+
+		<div id = "dialog_container">
+			<div id="my_dialog">
+				<p>Type Basic64 code:</p>
+				<textarea id="imgText"></textarea><hr>
+				<div class='btn' id="createImg">Create</div>
+				<div class='btn' id="cancel">Cancel</div>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
