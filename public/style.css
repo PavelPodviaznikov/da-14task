@@ -1,0 +1,122 @@
+html, body { 
+	height:100%; 
+	width:100%; 
+	margin:0; 
+	display:flex; 
+} 
+body{
+	background: #00C991;
+}
+#dialog_container{
+    position: absolute;
+	width: 100%;
+	height: 100%;
+	float: left;
+	background: black;
+	left: 0;
+	top: 0;
+	opacity: 0.95;
+	margin: 0;
+	display: none;
+}
+#container{
+	background: #ABFFE8;
+	width: 650px;
+	height: 300px;
+	margin: auto;
+}
+#buttonsArea{
+	width: 98%;
+	height: 10%;
+	margin: 0 auto;
+}
+#messegesArea{
+	background: white;
+	width: 98%;
+	height: 85%;
+	margin: 5px auto;
+	overflow: auto;
+	text-align: center;
+}
+#addNewMessege{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.messege{
+	font-size: 30px;
+	font-family: cursive;
+    padding: 5px;
+}
+#inputForm{
+	display: inline-block;
+}
+#showAll{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+#inputMessegeNumber{
+	display: inline-block;
+}
+#getMessege{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+#inputMessegeNumber input{
+	width: 50px;
+}
+#getImg{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+#counter{
+	float: right;
+	padding: 5px;
+}
+#my_dialog {
+   	border-radius: 5px;
+    display: none;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 200 auto;
+    width: 20%;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+}
+#my_dialog textarea{
+	width: 95%;
+	height: 70%;
+	margin-bottom: 0px;
+	resize: none;
+}
+#alertWindow{
+	border-radius: 5px;
+    display: none;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 200 auto;
+    width: 20%;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+}
+hr{
+	margin: 5px;
+}
+.image{
+	height: 40%;
+	margin-top: 10px;
+}
+#checker{
+	margin-bottom: 14px;
+	margin-left: 10px;
+}
+#ok{
+	margin-top: 20px;
+}
