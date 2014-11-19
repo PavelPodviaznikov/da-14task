@@ -128,21 +128,6 @@ $(document).ready(function(){
 				$('#counter').text(messeges.length);
 	       	});
 		
-        	
-        	/*
-			else{
-				$.get('/image?imgId='+images[length-1].imgId, function(data){
-					messeges = data;
-					console.log(messeges[length-1].img);
-					//$('#messegesArea').append("<img class='image' src='data:image/png;base64,"+messeges[length-1].img+"'>");
-					$('#dialog_container').css('display', 'none');
-				    $('#my_dialog').css('display', 'none');
-					$('.image').fadeOut(3000);
-					$('#imgText').val("");
-					$('#counter').text(messeges.length);
-				});
-
-			}*/
         });
 		
 	});
@@ -165,10 +150,6 @@ $(document).ready(function(){
 				$('.messege').fadeOut(3000);
 			}
 		});
-	}
-
-	function displayAll(){
-		
 	}
 
 });
